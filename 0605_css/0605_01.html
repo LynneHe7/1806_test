@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>语法</title>
+</head>
+<body>
+<style>
+    p{
+        color: #ff3e2d;
+    }
+    p#percentage{
+        width: 100%;
+        /* 不起作用啊....怎么回事*/
+        height:45%;
+        color: antiquewhite;
+        background: #b8ff50;
+    }
+    p#pix{
+        width: 100px;
+        height: 50px;
+        color: gray;
+        background: beige;
+    }
+    div#img{
+        background-image: url(skill1.png);
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<p>这是一个p</p>
+<p>这是一个p</p>
+<p>这是一个p</p>
+<p id="percentage">按照百分比设置尺寸</p>
+<p id="pix">按照像素设置尺寸</p>
+<br/>
+<span style="color: aqua">这是一个span</span>
+<div id="img">这是一个有背景的div</div>
+</body>
+</html>
